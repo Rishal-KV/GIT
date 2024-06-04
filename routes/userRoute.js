@@ -8,4 +8,7 @@ userRoute.get('/',(req,res) => {
     res.json(userDetails);
 })
 
+userRoute.get('/home',(req,res)=>{
+    res.json(userDetails)
+})
 module.exports = userRoute
